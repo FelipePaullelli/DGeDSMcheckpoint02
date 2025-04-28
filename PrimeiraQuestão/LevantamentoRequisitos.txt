@@ -1,0 +1,47 @@
+﻿Felipe Andueza Paullelli
+RM559449
+Data Science - 1TSCPG 2025 - FIAP
+Data Governance and Data Security Management
+
+
+Operação do Banco de Dados
+
+
+Registro do total de lixo coletado no dia por caminhão:
+- Identificação Única da Coleta/Viagem;
+- Identificação do Caminhão;
+- Identificação do Motorista;
+- Data da Coleta;
+- Quantidade Total Coletada na Viagem (em toneladas);
+- Hora de Início e Fim da Rota (Opcional).
+Cadastro dos caminhões:
+- Identificação Única do Caminhão;
+- Placa;
+- Modelo/Marc;
+- Ano de Fabricação;
+- Capacidade de Carga (em toneladas);
+- Status (Ativo, Em Manutenção, Inativo);
+- Data de Aquisição/Cadastro.
+Cadastro de ruas:
+- Nome Oficial da Rua;
+- CEP (Código de Endereçamento Postal);
+- Bairro;
+- Cidade;
+- Coordenadas Geográficas;
+- Observações (ex. tipo de via, restrições).
+Definição da rota que cada caminhão deve percorrer no dia:
+- Identificação Única da Rota&;
+- Data da Rota;
+- Identificação do Caminhão Designado&;
+- Identificação do Motorista Designado;
+- Lista Ordenada de Ruas/Segmentos (IDs dos endereços);
+- Horário Previsto de Início/Fim (Opcional);
+- Status da Rota (Planejada, Em Andamento, Concluída, Cancelada)
+
+
+Registro do total de lixo coletado por dia (todos os caminhões juntos):
+- Quantidade Total de Lixo Coletado no Dia (em toneladas)*;
+- Quantidade de Caminhões utilizados (ID de caminhões)*;
+- Quantidade de Motoristas que trabalharam no dia;
+- Quilometragem total*
+*Estes dados podem ser calculados/agregados a partir dos registros individuais por caminhão ou armazenado separadamente para relatórios rápidos.
